@@ -6,7 +6,22 @@ comment*/
 
 console.log("Hello World! I work!!")
 
+//Variables for nav
+
+var ed_home =
+    document.getElementById("ed_home");
+    consol.log(ed_home);
+
+var month_xr = 
+    document.getElementById("month_xr");
+    console.log(month_xr);
+
+var month_art = 
+    document.getElementById("month_art");
+    console.log(month_art);
+
 //Variables for page views
+
 var education_main =
     document.getElementById("education_main");
     console.log(education_main);
