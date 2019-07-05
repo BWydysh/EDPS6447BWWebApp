@@ -22,7 +22,7 @@
     <div id="nav_sub" class="d-flex flex-row align-items-stretch w-100 p-0 text-white" style="height: 50px;">
         <div class="align-self-center ml-2">
             <img src="assets/U%20Health_horizontal_png_red.png" height="40px" width="auto">
-            <h4 id="ed_home" class="d-inline ml-3 mb-0 align-middle"><a href="#" style="color:#ffffff;">Perinatal Education:</a></h4>
+            <h4 class="d-inline ml-3 mb-0 align-middle"><a id="ed_home" href="#" style="color:#ffffff;">Perinatal Education:</a></h4>
         </div>
         <div class="ml 4">
             <!-- Divider -->
@@ -39,35 +39,37 @@
 
 <body>
     <!--Landing Page-->
-    <div id="education_main" class="container-fluid d-none">
+    <div id="education_main" class="container-fluid ">
         <div id="ed_row" class="row">
-            <div id="ed_landing" class="col">
-            <p>This will be the main landing page!</p>
+            <div id="ed_landing" class="jumbotron jumbotron-fluid">
+                 <img src="assets/AM_Wings.jpeg">
+                <h1>Welcome to AirMed Perinatal Education</h1>
+                <h3>Select section above to begin</h3>
             </div>
         </div>
     </div>
-    
+
     <!-- x-ray app -->
-    <div id="xray_app" class="container-fluid">
+    <div id="xray_app" class="container-fluid d-none">
         <div id="xr_contain" class="row">
             <div id="j_contain" class="col">
                 <!--x-ray select -->
                 <div id="xr_select">
                     <select id="xr_drop">
-                        <option>Select X-Ray </option>
-                        <option id="february19"><a>February 2019</a></option>
-                        <option id="march19"><a>March 2019</a></option>
-                        <option id="april19"><a>April 2019</a></option>
-                        <option id="may19"><a>May 2019</a></option>
-                        <option id="june19"><a>June 2019</a></option>
+                        <option value=" ">Select X-Ray </option>
+                        <option id="february19" value="1"><a>February 2019</a></option>
+                        <option id="march19" value="2"><a>March 2019</a></option>
+                        <option id="april19" value="3"><a>April 2019</a></option>
+                        <option id="may19" value="4"><a>May 2019</a></option>
+                        <option id="june19" value="5"><a>June 2019</a></option>
                     </select>
                 </div>
 
 
                 <div id="jumbo_xr" class="jumbotron jumbotron-fluid">
                     <div id="j_content">
-                        <h2>X-Rays Coming Soon</h2>
-                        <div id="x_id">xray_month.jpg</div>
+                        <img id="xr_start" src="assets/1x/xr_holder.png" style="max-width: inherit">
+                        <img id="feb19" src="assets/X-rays/February_2019.jpg" width="570px" height="auto" ;>
                     </div>
                 </div>
             </div>
@@ -153,6 +155,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/variable.js"></script>
+    <script src="js/listener.js"></script>
 </body>
 
 </html>

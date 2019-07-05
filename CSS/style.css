@@ -1,12 +1,22 @@
 /* CSS */
 
 #navbar {
-    position: -webkit-sticky;
-    /* Safari */
+    /*position: -webkit-sticky;
+    
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 2;*/
 }
+
+#ed_landing{
+    align-content: center;
+    text-align: center;
+    width: 100vw;
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
+
 .a:link a{
     color:#ffffff;
 }
@@ -27,7 +37,7 @@
 
 /* Eric Edits */
 #xray_app,
-#article_window .row {
+#article_window {
     height: calc(100vh - 50px) !important;
 }
 
@@ -44,7 +54,7 @@
 
 
 #j_contain {
-    padding: 5px;
+    /*padding: 5px;*/
     align-content: center;
     max-width: 50vw;
 }
@@ -72,6 +82,13 @@
     text-align: center;
 }
 
+#xr_start {
+  
+}
+
+#feb19 {
+    display: none;
+}
 
 #x_id {
     padding-top: 500px;

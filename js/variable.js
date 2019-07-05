@@ -10,7 +10,10 @@ console.log("Hello World! I work!!")
 
 var ed_home =
     document.getElementById("ed_home");
-    consol.log(ed_home);
+    console.log(ed_home);
+
+var ed_home2 = document.querySelector("div#month_xr > a");
+console.log(ed_home2);
 
 var month_xr = 
     document.getElementById("month_xr");
@@ -35,6 +38,10 @@ document.getElementById("article_window");
 console.log(article_window);
 
 //Variables for dropdown
+
+var xr_drop =
+    document.getElementById("xr_drop");
+console.log(xr_drop);
 
 var february19 =
     document.getElementById("february19");
