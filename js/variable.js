@@ -43,6 +43,10 @@ var xr_drop =
     document.getElementById("xr_drop");
 console.log(xr_drop);
 
+var select_xr = 
+    document.getElementById("select_xr");
+console.log(select_xr);
+
 var february19 =
     document.getElementById("february19");
 console.log(february19);
@@ -66,6 +70,16 @@ console.log(june19);
 var june19 =
     document.getElementById("june19");
 console.log(june19);
+
+//Variables for x-ray images
+
+var xr_start =
+    document.getElementById("xr_start");
+console.log(xr_start);
+
+var feb19 =
+    document.getElementById("feb19");
+console.log(feb19);
 
 //Variables for form 
 
@@ -113,7 +127,6 @@ var lines_enter =
     document.getElementById("lines_enter");
 console.log(lines_enter);
 
-
 var report_enter =
     document.getElementById("report_enter");
 console.log(report_enter);
@@ -122,6 +135,42 @@ var submit_b =
     document.getElementById("submit_b");
 console.log(submit_b);
 
+// Article view variables
 
+var article_window = 
+    document.getElementById("article_window");
+console.log(article_window);
+
+var art_content = 
+    document.getElementById("art_content");
+console.log(art_content);
+
+var art_select = 
+    document.getElementById("art_select");
+console.log(art_select);
+
+var art_drop = 
+    document.getElementById("art_drop");
+console.log(art_drop);
+
+var febart19 = 
+    document.getElementById("febart19");
+console.log(febart19);
+
+var marchart19 = 
+    document.getElementById("marchart19");
+console.log(marchart19);
+
+var aprilart19 = 
+    document.getElementById("aprilart19");
+console.log(aprilart19);
+
+var mayart19 = 
+    document.getElementById("mayart19");
+console.log(mayart19);
+
+var juneart19 = 
+    document.getElementById("juneart19");
+console.log(juneart19);
 
 

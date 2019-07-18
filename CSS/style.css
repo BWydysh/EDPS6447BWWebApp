@@ -8,17 +8,18 @@
     z-index: 2;*/
 }
 
-#ed_landing{
+#ed_landing {
     align-content: center;
     text-align: center;
     width: 100vw;
 }
-.jumbotron{
+
+.jumbotron {
     margin-bottom: 0px;
 }
 
-.a:link a{
-    color:#ffffff;
+.a:link a {
+    color: #ffffff;
 }
 
 .a:visited {
@@ -26,7 +27,7 @@
 }
 
 .a:hover {
-    color:#ffffff;
+    color: #ffffff;
     opacity: .8;
 }
 
@@ -50,6 +51,7 @@
     overflow-y: scroll !important;
     height: 100%;
 }
+
 /* Eric Edits*/
 
 
@@ -57,6 +59,7 @@
     /*padding: 5px;*/
     align-content: center;
     max-width: 50vw;
+    
 }
 
 #xr_contain {
@@ -78,17 +81,19 @@
 
 }
 
+#jumbo_xr{
+    background-image: url("../assets/1x/xr_holder.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:750px;
+}
+
 #j_content {
     text-align: center;
 }
 
-#xr_start {
-  
-}
+#xr_start {}
 
-#feb19 {
-    display: none;
-}
 
 #x_id {
     padding-top: 500px;
@@ -119,4 +124,19 @@
 
 #a_content {
     text-align: center;
+}
+
+/*Article View styling*/
+
+#article_window {
+    align-content: center;
+    text-align: center;
+}
+
+#art_drop {
+    background: #ac162c;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px;
 }
