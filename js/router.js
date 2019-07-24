@@ -23,3 +23,19 @@ function hide_all_views(){
 }
 
 //Toggle x-ray images
+
+// Link to JSON file
+ var url="https://bwydysh.github.io/EDPS6447BWWebApp/json/xray_images.json";
+ var data= [];
+
+//Fetch request
+
+fetch(url)
+.then(function(response){
+      return response.json();
+      })
+.then(function(myjson){
+    data = myjson;
+    console.log(data);
+    
+});

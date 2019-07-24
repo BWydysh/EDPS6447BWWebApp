@@ -2,6 +2,8 @@
 function get_form_data(){
   console.log("User clicked Submit Form Button");
     
+  console.log(name_enter.value);    
+    
   console.log(month_enter.value);
     
   console.log(exposure_select.value);
@@ -29,4 +31,21 @@ function get_form_data(){
     
    console.log(report_enter.value);
   
+}
+
+var url = "https://bwydysh.github.io/EDPS6447BWWebApp/json/xray_images.json";
+var data = [];
+
+function getJSON(){
+fetch(url)
+.then(function(response){
+return response.json();
+})
+.then(function(myJson){
+data = myJson;
+    
+})
+.catch(function(error){
+    console.log(error);
+});
 }

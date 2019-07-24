@@ -67,9 +67,15 @@ var june19 =
     document.getElementById("june19");
 console.log(june19);
 
-var june19 =
-    document.getElementById("june19");
-console.log(june19);
+var july19 =
+    document.getElementById("july19");
+console.log(july19);
+
+//Variables for jumbotron
+
+var jumbo_xr =
+    document.getElementById("jumbo_xr");
+console.log(jumbo_xr);
 
 //Variables for x-ray images
 
@@ -82,6 +88,10 @@ var feb19 =
 console.log(feb19);
 
 //Variables for form 
+
+var name_enter =
+    document.getElementById("name_enter");
+console.log(name_enter);
 
 var month_enter =
     document.getElementById("month_enter");
@@ -153,6 +163,10 @@ var art_drop =
     document.getElementById("art_drop");
 console.log(art_drop);
 
+var janart19 = 
+    document.getElementById("janart19");
+console.log(janart19);
+
 var febart19 = 
     document.getElementById("febart19");
 console.log(febart19);
@@ -173,4 +187,9 @@ var juneart19 =
     document.getElementById("juneart19");
 console.log(juneart19);
 
+// iframe variable
+
+var pdf_view = 
+    document.getElementById("pdf_view");
+console.log(pdf_view);
 

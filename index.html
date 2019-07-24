@@ -57,11 +57,14 @@
                 <div id="xr_select">
                     <select id="xr_drop">
                         <option id="select_xr" value="0">Select X-Ray </option>
-                        <option id="february19" value="1"><a href="#">February 2019</a></option>
-                        <option id="march19" value="2"><a href="#">March 2019</a></option>
-                        <option id="april19" value="3"><a href="#">April 2019</a></option>
-                        <option id="may19" value="4"><a href="#">May 2019</a></option>
-                        <option id="june19" value="5"><a href="#">June 2019</a></option>
+                        <option id=january19 value="1"><a href="#"></a></option>
+                        <option id="february19" value="2"><a href="#">February 2019</a></option>
+                        <option id="march19" value="3"><a href="#">March 2019</a></option>
+                        <option id="april19" value="4"><a href="#">April 2019</a></option>
+                        <option id="may19" value="5"><a href="#">May 2019</a></option>
+                        <option id="june19" value="6"><a href="#">June 2019</a>
+                        </option>
+                        <option id="july19" value="7"><a href="#">July 2019</a></option>
                     </select>
                 </div>
 
@@ -78,6 +81,10 @@
             <div id="form_xr" class="col">
                 <form style="text-align: left;">
                     <div class="form-group">
+                        
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name_enter">
+                        
                         <label for="month">Month</label>
                         <input type="text" class="form-control" id="month_enter">
 
@@ -140,20 +147,22 @@
 
     <!-- Article view -->
     <div id="article_window" class="container-fluid d-none">
-        <div class="jumbotron jumbotron-fluid">
+        <div id="article_row" class="row">
             <div id="art_content">
                 <div id="art_select">
                     <select id="art_drop">
-                        <option value=" ">Select Article </option>
-                        <option id="febart19" value="1"><a>February 2019</a></option>
-                        <option id="marchart19" value="2"><a>March 2019</a></option>
-                        <option id="aprilart19" value="3"><a>April 2019</a></option>
-                        <option id="mayart19" value="4"><a>May 2019</a></option>
-                        <option id="juneart19" value="5"><a>June 2019</a></option>
+                        <option value="0">Select Article </option>
+                        <option id="janart19" value="1">January 2019</option>
+                        <option id="febart19" value="2"><a>February 2019</a></option>
+                        <option id="marchart19" value="3"><a>March 2019</a></option>
+                        <option id="aprilart19" value="4"><a>April 2019</a></option>
+                        <option id="mayart19" value="5"><a>May 2019</a></option>
+                        <option id="juneart19" value="6"><a>June 2019</a></option>
                     </select>
                 </div>
                 <h2>Articles coming soon</h2>
-                <div id="x_id">monthly_article .pdf</div>
+                <iframe id="pdf_view" src="articles/default.pdf" width="100%">
+                    </iframe>
             </div>
         </div>
     </div>

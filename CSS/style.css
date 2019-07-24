@@ -1,11 +1,14 @@
 /* CSS */
+:root {
+    --url_name: url("../assets/1x/xr_holder.png");
+}
 
 #navbar {
-    /*position: -webkit-sticky;
+    position: -webkit-sticky;
     
     position: sticky;
     top: 0;
-    z-index: 2;*/
+    z-index: 2;
 }
 
 #ed_landing {
@@ -82,7 +85,7 @@
 }
 
 #jumbo_xr{
-    background-image: url("../assets/1x/xr_holder.png");
+    background-image: var(--url_name);
     background-size: cover;
     background-repeat: no-repeat;
     height:750px;
@@ -132,6 +135,16 @@
     align-content: center;
     text-align: center;
 }
+#art_content {
+    width: 100vw;
+}
+
+#art_select {
+    
+}
+.iframe {
+    overflow-y:scroll !important;
+}
 
 #art_drop {
     background: #ac162c;
@@ -139,4 +152,9 @@
     display: inline-block;
     font-size: 18px;
     margin: 5px;
+}
+
+#pdf_view {
+    overflow-y: scroll;
+    height: calc(100vh - 138px);
 }
