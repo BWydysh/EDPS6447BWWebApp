@@ -2,36 +2,36 @@
     {
         "number": 1,
         "name": "February 2019",
-        "image": "../assets/X-rays/February_2019",
+        "image": "../assets/X-rays/February_2019"
     },
     
     {
         "number": 2,
         "name": "March 2019",
-        "image": "../assets/X-rays/March_2019",
+        "image": "../assets/X-rays/March_2019"
     },
     
     {
         "number": 3,
         "name": "April 2019",
-        "image": "../assets/X-rays/April_2019",
+        "image": "../assets/X-rays/April_2019"
     },
     
     {
         "number": 4, 
         "name": "May 2019",
-        "image": "../assets/X-rays/May_2019",
+        "image": "../assets/X-rays/May_2019"
     },
     
     {
        "number": 5,
        "name": "June 2019",
-       "image": "../assets/X-rays/June_2019",
+       "image": "../assets/X-rays/June_2019"
     },
     
     {
         "number": 6,
         "name": "July 2019",
-        "image": "../assets/X-rays/July_2019",
-    },
+        "image": "../assets/X-rays/July_2019"
+    }
 ]
